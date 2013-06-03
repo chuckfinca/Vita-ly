@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {	
+    font-size: 2.4rem;
+}
+.wrapper {
+	width: 90rem;
+}
+#header{
+	height: 5rem;
+	display: block;
+}
+#logo {
+	width: 13.2rem;
+}
+#headerText {
+	padding: 1.6rem 0 0 0;
+	font-size: 2.1rem;
+}
+
+
+.supplementalHeaderText {
+	display: inline;
+	font-size: 2.1rem;
+}
+.supplementalHeaderText > a {
+	padding-left: 1rem;
+}
+
+#providerImageContainer {
+	margin: 0;
+}
+
+#intro {
+	margin-bottom: 3rem;
+}
+
+#mainText {
+	margin: 3rem 0 5rem 0;
+	width: 80%;
+	font-size: 4.0rem;
+}
+
+.providerCategory {
+	font-size: 2.4rem;
+	padding: 0.5rem 2rem;
+}
+
+#magnifyingGlass{
+	padding: 0.75rem 2rem;
+}
+.additionalSearchCriteriaContainer {
+	margin-right: 5%;
+	padding-top: 0.5rem;
+}
+
+.additionalSearchCriteriaText {
+	font-size: 1.8rem;
+}
+
+
+#header #textField, #header #magnifyingGlass {
+	margin-top: 0.7rem;
+}
+
+.freeStanding {
+	-moz-box-shadow:    0 0.3rem .6rem -0.3rem #ccc;
+	-webkit-box-shadow: 0 0.3rem .6rem -0.3rem #ccc;
+	box-shadow:         0 0.3rem .6rem -0.3rem #ccc;
+}
+
+#additionalSearchCriteriaSelectorArea{
+	margin-top: 0.5rem;
+	padding-left: 2rem;
+}
+
+#locationContainer {
+	width: 40rem;
+	margin-top: 0.5rem;
+}
+
+#locationBox {
+	width: 30rem;
+	padding-top: 0.1rem;
+	margin: 0;
+}
+
+.hoverMenu {
+	top: 3.4rem;
+	padding: 0;
+}
+
+#searchFor {
+	margin-bottom: 3rem;
+}
+
+#textField{
+	width: 85%;
+}
+
+.categoryText {
+	font-size: 1.8rem;
+}
+
+
+#locationText {
+	font-size: 1.4rem;
+}
+
+#searchFor span {
+	font-size: 1.8rem;
+}
+
+#textField {
+	font-size: 1.8rem;
+}
+
+#footer {
+	margin-top: 10rem;
+}
+
+/* ---- text ---- */
+
+#headerText a{
+	font-size: 2.1rem;
+}
+
+h1 {
+	font-size: 2.8rem;
+}
+h2 {
+	font-size: 2.4rem;
+	margin-bottom: 5rem;
+	line-height: 3.0rem;
+}
+h3 {
+	font-size: 2.4rem;
+}

@@ -1,0 +1,219 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {	
+    font-size: 2.4rem;
+}
+.wrapper {
+	width: 90rem;
+}
+#header{
+	display: block;
+}
+#logo {
+	padding: 0.8rem 0 0.4rem 0;
+	width: 13.2rem;
+}
+#headerText {
+	padding: 1.6rem 0 0 0;
+	font-size: 2.1rem;
+}
+
+#mobile {
+	display: none;
+}
+
+.supplementalHeaderText {
+	display: inline;
+	font-size: 2.1rem;
+}
+.supplementalHeaderText > a {
+	padding-left: 1rem;
+}
+
+#providerImageContainer {
+	margin: 0;
+}
+
+#intro {
+	margin: 10rem 0;
+	padding: 0;
+	overflow: visible;
+}
+
+#mainText {
+	margin: 3rem 0 3rem 0;
+	width: 80%;
+	font-size: 4.0rem;
+}
+
+#additionalIntroText {
+	padding-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.providerCategory {
+	font-size: 2.4rem;
+	padding: 0.5rem 2rem;
+}
+
+#magnifyingGlass{
+	padding: 0.75rem 2rem;
+}
+.additionalSearchCriteriaContainer {
+	margin-right: 5%;
+	padding-top: 0.5rem;
+}
+
+.additionalSearchCriteriaText {
+	font-size: 1.8rem;
+}
+
+#formContainer {
+	margin: 10rem 0rem;
+}
+
+.formTextField {
+	width: 40%;
+	height: 3rem;
+}
+
+#textBox {
+	width: 100%;
+}
+
+.formTextField, #textBox {
+	font-size: 2.1rem;
+	padding: 0.5rem 1rem;
+}
+
+#textBox {
+	padding: 1rem;
+}
+
+label {
+	margin: 1rem 0 0.25rem 0;
+}
+
+#header #textField, #header #magnifyingGlass {
+	margin-top: 0.7rem;
+}
+
+.freeStanding {
+	-moz-box-shadow:    0 0.3rem .6rem -0.3rem #ccc;
+	-webkit-box-shadow: 0 0.3rem .6rem -0.3rem #ccc;
+	box-shadow:         0 0.3rem .6rem -0.3rem #ccc;
+}
+
+#additionalSearchCriteriaSelectorArea{
+	margin-top: 0.5rem;
+	padding-left: 2rem;
+}
+
+#locationContainer {
+	width: 40rem;
+	margin-top: 0.5rem;
+}
+
+#locationBox {
+	width: 30rem;
+	padding-top: 0.1rem;
+	margin: 0;
+}
+
+.hoverMenu {
+	top: 3.4rem;
+	padding: 0;
+}
+
+#searchFor {
+	margin-bottom: 3rem;
+}
+
+#getInvolved {
+	width: 40rem;
+	margin-top: 3.5rem;
+}
+
+#textField{
+	width: 85%;
+}
+
+.categoryText {
+	font-size: 1.8rem;
+}
+
+#contactForm {
+	margin: 10rem 0;
+}
+
+#locationText {
+	font-size: 1.4rem;
+}
+
+#searchFor span {
+	font-size: 1.8rem;
+}
+
+#textField {
+	font-size: 1.8rem;
+}
+
+ul {
+	margin-left: 3rem;
+}
+
+li {
+	margin-bottom: 0.5rem;
+}
+
+#footer {
+	margin-top: 15rem;
+	background-color: inherit;
+}
+
+#copyright {
+	padding-top: 2rem;
+}
+
+.title {
+	font-size: 3.0rem;
+}
+
+h3 + img {
+	width: 10rem;
+	margin: 0 7.5rem;
+}
+
+#mobileMainText {
+	display: none;
+}
+
+/* ---- text ---- */
+
+#headerText a{
+	font-size: 2.1rem;
+}
+p {
+	line-height: 2.4rem;
+}
+
+h1 {
+	font-size: 2.8rem;
+}
+h2 {
+	font-size: 3.2rem;
+	margin-bottom: 5rem;
+	line-height: 4.0rem;
+}
+h3 {
+	font-size: 3.2rem;
+	padding-top: 4rem;
+}
+
+.footerLink {
+	display: inline;
+	border-bottom: none;
+	padding: 0 2rem 0 2rem;
+}

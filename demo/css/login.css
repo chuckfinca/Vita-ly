@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#loginBox {
+	height: 50rem;
+	margin: 5rem 0 0 0;
+	background-color: red;
+}
+
+#loginBoxHeader, #connectWithFacebook {
+	margin: 1rem;
+	padding: 2rem 1rem;
+}
+
+
+#loginBoxHeader {
+	background-color: blue;
+	border-bottom: solid 1px white;
+}
+
+#connectWithFacebook {
+	background-color: green;
+}
+
+#standardLoginBox {
+	margin: 2rem 1rem;
+	padding: 1rem 0;
+	background-color: brown;
+	border-top: solid 1px white;
+	overflow: auto;
+}
+
+.textFieldBox {
+	margin: 1rem 0;
+	background-color: white;
+}
+
+input[type=text] {
+	margin: 0.5rem 1rem;
+	padding: 1rem;
+    border: 5px solid white;
+	width: 90%;
+}
+
+input[type=button] {
+	margin: 0.5rem 0;
+    border: 5px solid white;
+	background-color: white;
+	padding: 1rem;
+	float: right;
+}
+
+#connectWithFacebook, .textFieldBox, input[type=button] {
+	border-radius: 4px;
+}
+
+input {
+	font-size: 2.1rem;
+    font-family: 'Lato', Palatino, serif;
+}

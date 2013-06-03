@@ -1,12 +1,15 @@
 body {
 	font: 13px arial, sans-serif;
 	color: #222;
-	background-color: #fdfdfd;
+	background-color: #EFEBE1;
 }
 #wrapper {
 	margin: 150px auto;
 	text-align:center;
 }
+
+
+
 h1, h2 {
 	font-weight: normal;
 	line-height: 35px;

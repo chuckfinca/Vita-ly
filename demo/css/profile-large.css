@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#generalInfo{
+	margin-top: 3rem;
+	width: 62rem;
+	display: inline-block;
+	vertical-align: top;
+	padding: 0;
+}
+
+#contactDetails, #providerQuote, #supplementalInfo {
+	margin-bottom: 2rem;
+}
+
+#providerDetails {
+	max-width: 60%;
+}
+
+#additionalDetails {
+	margin-right: 0;
+}
+
+.rating {
+	line-height: 1.4rem;
+	margin: 0;
+	float: none;
+}
+#contactDetails {
+	width: 27.4rem;
+	display: inline-block;
+	overflow: auto;
+}
+
+#map {
+	margin: 0;
+	padding: 0.5rem;
+	width: 25rem;
+	height: 15rem;
+	float: right;
+}
+
+iframe {
+	width: 100%;
+	height:15rem;
+}
+
+#contactProviderButton {
+	margin: 3rem 0 1rem 0;
+	width: 26rem;
+	float: right;
+}
+
+#certifications {
+	margin: 0 0 3rem 0;
+}
+
+
+.certification {
+	margin: 0 2rem 0.5rem 0;
+}
+
+.certIcon {
+	width: 2rem;
+	height: 2rem;
+}
+
+#supplementalInfo {
+	width: 62rem;
+	display: inline-block;
+	vertical-align: top;
+	padding: 0;
+}
+
+#socialMedia a, #reviews span, #supplementalInfo p {
+	margin: 1rem 0;
+}
+
+.title {
+	margin: 0 0 1rem 0;
+	font-size: 2.8rem;
+}
+#reviews {
+	display: inline-block;
+	width: 26rem;
+	margin: 0 0 0 1rem;
+}
+
+#reviews .title {
+	font-size: 2.1rem;
+}
+
+
+#aboutText {
+	margin: 0 0 4rem 0;
+}
+.reviewAuthor {
+	font-size: 1.2rem;
+	padding: 0;
+}
+/* ---- text ---- */
+
+.title + p, #providerQuote span, p + p {
+	font-size: 1.8rem;
+	line-height: 2.4rem;
+}
+
+.providerName, .providerLocation, .providerType, .providerSpecialties {
+	font-size: 2.1rem;
+}
+
+#certSectionTitle, .certName a, .providerSpecialties {
+	font-size: 1.8rem;
+}
+
+#reviews p {
+	font-size: 1.4rem;
+	line-height: 1.8rem;
+	margin-bottom: 0;
+}

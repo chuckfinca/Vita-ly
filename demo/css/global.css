@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+    font-size: 62.5%;
+    -webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
+}
+body {
+	margin: 0;
+	padding: 0;
+    background-color: #fafafa;
+    font-family: 'Lato', Palatino, serif;
+	font-weight: 300;
+    font-size: 1.6rem;
+    color: #000;
+}
+
+.wrapper {
+	margin: 0 auto;
+}
+#header{
+	background-color: #eee;
+	-moz-box-shadow:    0 0 .6rem 0 #ccc;
+	-webkit-box-shadow: 0 0 .6rem 0 #ccc;
+	box-shadow:         0 0 .6rem 0 #ccc;
+}
+
+#logo {
+	width: 9.2rem;
+	margin: 0.3rem 0 0 1rem;
+}
+
+#headerText {
+	padding: 0.75rem 1rem 0 0;
+	float: right;
+}
+
+.supplementalHeaderText {
+	display: none;
+}
+
+#generalInfo {
+	margin: 2rem 0;
+}
+
+.left {
+	width: 25%;
+	display: inline-block;
+}
+
+.center {
+	width: 74%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.providerImageContainer {
+	margin: 0.25rem 1rem 0rem 1rem;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.providerImage {
+	width: 100%;
+	border: solid 1px #ccc;
+}
+
+.basicInfo {
+	display: inline-block;
+	width: 45%;
+}
+
+.additionalInfo {
+	margin-left: 1rem;
+}
+
+.rating {
+	vertical-align: top;
+	margin-bottom: 1rem;
+}
+
+.rating span {
+	display: block;
+}
+
+.socialMedia a {
+	margin-right: 0.5rem;
+}
+
+.socialMedia a img {
+	opacity: 0.5;
+}
+
+#footer {
+	margin-top: 5rem;
+	padding-top: 1rem;
+	border-top: solid 1px #eee;
+	text-align: center;
+}
+#copyright {
+    display: block;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* ---- text ---- */
+
+h1 {
+	font-weight: normal;
+	font-size: 1.8rem;
+	line-height: 2.4rem;
+}
+
+#intro h1 {
+	line-height: 3.2rem;
+}
+
+h2, h3, span, p {
+	font-size: 1.6rem;
+	line-height: 2.1rem;
+}
+
+#headerText, #copyright, #copyright a {
+	color: #999;
+}
+
+#generalInfo a, h2 > a, h3 > a, span a, h2 > a:visited, h3 > a:visited, span a:visited {
+	color: #000;
+}
+
+
+#footer a {
+	color: #777;
+}	
+
+/* ---- links ---- */
+a, a:visited, #headerText a, #headerText a:visited {
+	color: #2d81da;
+}
+
+a {
+    border-style: none;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+#footer a {
+	display: inline-block;
+	padding: 0.5rem 1rem 0 1rem;
+}
+
+#copyright a {
+	padding: 0;
+}
+
+#headerText, #headerText a, #footer a {
+	font-size: 1.4rem;
+}
+
+#copyright, #copyright a {
+	font-size: 1.2rem;
+}
+

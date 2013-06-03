@@ -1,0 +1,431 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+    font-size: 62.5%;
+    -webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
+}
+body {
+	margin: 0;
+	padding: 0;
+    background-color: #eee;
+    font-family: 'Lato', Palatino, serif;
+	font-weight: 300;
+    font-size: 1rem;
+    color: #000;
+}
+
+#mainContentContainer {
+	position: relative;
+}
+.wrapper {
+	margin: 0 auto;
+}
+#header{
+	background-color: #fafafa;
+	-moz-box-shadow:    0 0 .3rem 0 #aaa;
+	-webkit-box-shadow: 0 0 .3rem 0 #aaa;
+	box-shadow:         0 0 .3rem 0 #aaa;
+	overflow: auto;
+}
+
+#logo {
+	width: 9.2rem;
+	padding: 1rem 0 0.5rem 1rem;
+}
+
+#headerText {
+	padding: 1.5rem 1rem 0 0;
+	float: right;
+	font-size: 1.4rem;
+	display: inline-block;
+}
+
+
+#footer {
+	margin-top: 5rem;
+	padding-top: 1rem;
+	border-top: solid 1px #ddd;
+	text-align: center;
+	background-color: #ddd;
+}
+#copyright {
+    display: block;
+    text-align: center;
+    padding: 1em 0;
+}
+	
+
+
+#header form {
+	display: inline-block;
+	width: 70%;
+}
+
+#header #textField {
+	margin: 0 0 0 1rem;
+}
+
+#header #magnifyingGlass {
+	margin: 0 0 0 0.25rem;
+}
+
+.additionalSearchCriteriaContainer {
+	position: relative;
+}
+
+#header .additionalSearchCriteriaContainer {
+	width: 100%;
+}
+
+#locationContainer {
+	display: inline-block;
+	width: 50%;
+}
+
+#locationBox .additionalSearchCriteriaText {
+	margin-left: 1rem;
+}
+
+#locationBox {
+	width: 60%;
+	background-color: #fff;
+	padding: 0.5rem 0;
+	margin: 1rem 0rem 0.5rem 1rem;
+	border: 1px solid #ddd;
+}
+
+.additionalSearchCriteriaContainer:hover .hoverMenu {
+	display: block;
+}
+
+.hoverMenu {
+	width: 25rem;
+	position: absolute;
+	left: -0.05rem;
+	top: 2.7rem;
+	background-color: #fff;
+	display: none;
+	padding: 0.5rem 0;
+	border: solid 1px #ddd;
+}
+
+.categoryBox {
+	padding: 1rem;
+}
+
+.categoryBox:hover {
+	background-color: #eee;
+	padding: 1rem;
+}
+
+#searchResults {
+	margin-top: 0.5rem;
+}
+
+#textFieldContainer {
+	line-height: 0;
+}
+
+.freeStanding {	
+	-moz-box-shadow:    0 0 .6rem 0 #ccc;
+	-webkit-box-shadow: 0 0 .6rem 0 #ccc;
+	box-shadow:         0 0 .6rem 0 #ccc;
+	background-color: #ccc;
+}
+
+.underHeader {
+	-moz-box-shadow:    0 0 0 0 #eee;
+	-webkit-box-shadow: 0 0 0 0 #eee;
+	box-shadow:         0 0 0 0 #eee;
+	border-bottom: solid 1px #eee;
+	background-color: none;
+}
+
+#textField {
+	margin: 1rem 0.3rem 1rem 1rem;
+	height: 3rem;
+	vertical-align: top;
+	width: 70%;
+	font-size: 1.6rem;
+}
+
+#searchFor {
+	margin: 0 0 2.5rem 1rem;
+	display: inline-block;
+}
+
+#searchFor + #textField {
+	margin-left: 0.2rem;
+	width: 50%;
+}
+
+#magnifyingGlass {
+	margin: 1rem 0;
+	padding: 0.7rem 4%;
+	background-color: #0E3F82;
+	width: 2rem;
+	border: solid 1px #eee;
+}
+
+#searchArea img:hover {
+	opacity: 0.8;
+}
+
+.additionalSearchCriteriaContainer {
+	padding: 0.5rem 1rem;
+	display: inline-block;
+}
+
+.additionalSearchCriteriaArrow {
+	margin: 0;
+	opacity: 0.5;
+}
+
+.additionalSearchCriteriaText {
+	font-size: 1.4rem;
+}
+
+.additionalDetails {
+	margin-right: 1rem;
+	display: inline-block;
+	max-width: 20%;
+	vertical-align: top;
+	float: right;
+}
+
+.supplementalHeaderText {
+	display: none;
+}
+#formContainer {
+	margin: 3rem 1rem;
+}
+
+#formList {
+	list-style: none;
+	margin: 0;
+}
+
+.formTextField {
+	width: 90%;
+	padding: 0.5rem;
+}
+
+#textBox {
+	width: 90%;
+	padding: 0.5rem;
+}
+
+
+#mainImage {
+	width: 12rem;
+	height: 10rem;
+	background-color: #eee;
+	margin: 0 1rem;
+	display: inline-block;
+}
+
+#intro {
+	margin: 3rem 1rem;
+	overflow: auto;
+}
+
+#mainText {
+	vertical-align: top;
+	display: block;
+	font-size:2.8rem;
+	margin-bottom: 2rem;
+	line-height: 3.2rem;
+}
+
+h3 + img {
+	width: 7rem;
+	margin-left: 1rem;
+}
+
+#additionalIntroText {
+	margin-bottom: 1rem;
+}
+
+.providerCategory {
+	padding: 0.5rem 1.5rem;
+	display: inline-block;
+	font-size: 1.6rem;
+}
+
+#contactForm {
+	margin: 5rem 1rem;
+}
+
+#getInvolved {
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	margin-top: 2rem;
+}
+
+#getInvolved div {
+	background-color: #8040C0;
+	text-align: center;
+	padding: 0.1rem 0 1rem 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#getInvolved div:hover {
+	background-color: #C080FF;
+}
+
+#getInvolved span {
+	display: block;
+	margin-top: 1rem;
+	font-size: 1.4rem;
+	text-align: center;
+}
+
+#getInvolved div span {
+	color: white;
+	font-size: 2.4rem;
+	font-weight: 300;
+}
+
+
+
+
+/* ---- text ---- */
+h1, h3 {
+	text-shadow:#bbb 1px 1px 3px;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 1.4rem;
+}
+h2 {
+	font-size: 1.8rem;
+	margin-bottom: 2rem;
+}
+h3 {
+	font-size: 1.8rem;
+	font-weight: normal;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 3rem;
+}
+
+span {
+	font-size: 1.2rem;
+}
+
+#mobile {
+	font-size: 1.4rem;
+}
+
+.title {
+	font-size: 2.1rem;
+	font-weight: bold;
+	display: block;
+	margin: 5rem 0 1.5rem 0;
+	text-shadow:#eee 1px 1px 3px;
+}
+
+p {
+	font-size: 1.8rem;
+	line-height: 2.1rem;
+	margin-bottom: 1.5rem;
+}
+
+li {
+	font-size: 1.8rem;
+	line-height: 2.1rem;
+}
+
+ul {
+	margin-left: 2rem;
+	margin-bottom: 2rem;
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+#searchFor span {
+	font-size: 1.4rem;
+}
+
+.categoryText {
+	font-size: 1.4rem;
+}
+
+
+#locationText {
+	font-size: 1.2rem;
+}
+#textField {
+	font-size: 1.2rem;
+}
+
+#mobileMainText {
+	display: block;
+}
+
+/* ---- links ---- */
+
+a {
+    border-style: none;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a, a:visited , .title {
+	color: #8040C0;
+	font-weight: normal;
+}
+
+.title {
+	color: #14005f;
+}
+
+label, #headerText, .supplementalHeaderText, .additionalSearchCriteriaText, #footer a, #locationText, .categoryText, #searchFor span, #copyright, #copyright a {
+	color: #888;
+}
+
+label {
+	font-size: 1.6rem;
+	margin: 0.5rem 0 0 0;
+	display: block;
+}
+
+.formTextField, #textBox {
+	font-size: 1.6rem;
+}
+
+#headerText a {
+	font-weight: 300;
+}
+
+#headerText a {
+	font-size: 1.4rem;
+}
+
+#footer a {
+	font-size: 1.4rem;
+}
+
+#copyright a {
+	padding: 0;
+	font-size: 1.2rem;
+}
+
+#logoLink {
+	vertical-align: top;
+	display: inline-block;
+}
+
+.footerLink {
+	display: block;
+	text-align: left;
+	padding: 0 0 1rem 1rem;
+	margin-bottom: 1rem;
+	border-bottom: solid 1px #eee;
+}

@@ -1,0 +1,303 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+html {
+    font-size: 62.5%;
+    -webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
+}
+body {
+	margin: 0;
+	padding: 0;
+    background-color: #fafafa;
+    font-family: Palatino, serif;
+    font-size: 1rem;
+    color: #212e40;
+}
+
+.wrapper {
+	margin: 0 auto;
+}
+#header{
+	background-color: #eee;
+	-moz-box-shadow:    0 0 .6rem 0 #ccc;
+	-webkit-box-shadow: 0 0 .6rem 0 #ccc;
+	box-shadow:         0 0 .6rem 0 #ccc;
+}
+
+#logo {
+	width: 9.2rem;
+}
+
+#headerText {
+	color: #999;
+	padding: 1.5rem 1rem 0 0;
+	float: right;
+	font-size: 1.4rem;
+}
+
+
+#footer {
+	margin-top: 5rem;
+	padding-top: 1rem;
+	border-top: solid 1px #eee;
+	text-align: center;
+}
+#copyright {
+    display: block;
+    text-align: center;
+    padding: 1em 0;
+}
+	
+
+
+#header form {
+	display: inline-block;
+	width: 70%;
+}
+
+#header #textField {
+	margin: 0 0 0 1rem;
+}
+
+#header #magnifyingGlass {
+	margin: 0 0 0 0.25rem;
+}
+
+.additionalSearchCriteriaContainer {
+	position: relative;
+}
+
+#header .additionalSearchCriteriaContainer {
+	width: 100%;
+}
+
+#locationContainer {
+	display: inline-block;
+	width: 50%;
+}
+
+#locationBox .additionalSearchCriteriaText {
+	margin-left: 1rem;
+}
+
+#locationBox {
+	width: 60%;
+	background-color: #fff;
+	padding: 0.5rem 0;
+	margin: 1rem 0rem 0.5rem 1rem;
+	border: 1px solid #ddd;
+}
+
+.additionalSearchCriteriaContainer:hover .hoverMenu {
+	display: block;
+}
+
+.hoverMenu {
+	width: 25rem;
+	position: absolute;
+	left: -0.05rem;
+	top: 2.7rem;
+	background-color: #fff;
+	display: none;
+	padding: 0.5rem 0;
+	border: solid 1px #ddd;
+}
+
+.categoryBox {
+	padding: 1rem;
+}
+
+.categoryBox:hover {
+	background-color: #eee;
+	padding: 1rem;
+}
+
+#searchResults {
+	margin-top: 0.5rem;
+}
+
+#textFieldContainer {
+	line-height: 0;
+}
+
+.freeStanding {	
+	-moz-box-shadow:    0 0 .6rem 0 #ccc;
+	-webkit-box-shadow: 0 0 .6rem 0 #ccc;
+	box-shadow:         0 0 .6rem 0 #ccc;
+	background-color: #ccc;
+}
+
+.underHeader {
+	-moz-box-shadow:    0 0 0 0 #eee;
+	-webkit-box-shadow: 0 0 0 0 #eee;
+	box-shadow:         0 0 0 0 #eee;
+	border-bottom: solid 1px #eee;
+	background-color: none;
+}
+
+#textField {
+	margin: 1rem 0.3rem 1rem 1rem;
+	height: 3rem;
+	vertical-align: top;
+	width: 70%;
+	font-size: 1.6rem;
+}
+
+#searchFor {
+	margin: 0 0 2.5rem 1rem;
+	display: inline-block;
+}
+
+#searchFor + #textField {
+	margin-left: 0.2rem;
+	width: 50%;
+}
+
+#magnifyingGlass {
+	margin: 1rem 0;
+	padding: 0.7rem 4%;
+	background-color: #0E3F82;
+	width: 2rem;
+	border: solid 1px #eee;
+}
+
+#searchArea img:hover {
+	opacity: 0.8;
+}
+
+.additionalSearchCriteriaContainer {
+	padding: 0.5rem 1rem;
+	display: inline-block;
+}
+
+.additionalSearchCriteriaArrow {
+	margin: 0;
+	opacity: 0.5;
+}
+
+.additionalSearchCriteriaText {
+	color: #999;
+	font-size: 1.4rem;
+}
+
+.additionalDetails {
+	margin-right: 1rem;
+	display: inline-block;
+	max-width: 20%;
+	vertical-align: top;
+	float: right;
+}
+
+.supplementalHeaderText {
+	display: none;
+}
+
+
+#mainImage {
+	width: 12rem;
+	height: 10rem;
+	background-color: #eee;
+	margin: 0 1rem;
+	display: inline-block;
+}
+
+#intro {
+	margin: 0 5%;
+	padding: 3rem 0;
+	overflow: auto;
+	width: 90%;
+}
+
+#mainText {
+	vertical-align: top;
+	display: block;
+	font-size:2.4rem;
+	margin-bottom: 2rem;
+}
+
+.providerCategory {
+	padding: 0.5rem 1.5rem;
+	display: inline-block;
+	font-size: 1.6rem;
+}
+
+/* ---- text ---- */
+
+h1 {
+	font-weight: bold;
+	font-size: 1.4rem;
+}
+h2 {
+	font-size: 1.8rem;
+	margin-bottom: 2rem;
+}
+h3 {
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+span {
+	font-size: 1.2rem;
+}
+
+p {
+	font-size: 1.4rem;
+	line-height: 1.6rem;
+}
+
+#searchFor span {
+	font-size: 1.4rem;
+	color: #888;
+}
+
+.categoryText {
+	font-size: 1.4rem;
+	color: #888;
+}
+
+
+#locationText {
+	color: #aaa;
+	font-size: 1.2rem;
+}
+#textField {
+	font-size: 1.2rem;
+}
+
+/* ---- links ---- */
+
+a {
+	color: #2d81da;
+    border-style: none;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+	color: #2d81da;
+}
+#headerText a {
+	font-size: 1.4rem;
+}
+
+#footer a {
+	color: #777;
+	display: inline-block;
+	padding: 0.5rem 1rem 0 1rem;
+	font-size: 1.4rem;
+}
+#copyright {
+	color: #999;
+}
+#copyright a {
+	padding: 0;
+	font-size: 1.2rem;
+	color: #999;
+}
+
+#logoLink {
+	vertical-align: top;
+	display: inline-block;
+}

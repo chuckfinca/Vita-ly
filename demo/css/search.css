@@ -1,0 +1,171 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#logoLink {
+	vertical-align: top;
+	display: inline-block;
+}
+
+#header form {
+	display: inline-block;
+	width: 70%;
+}
+
+#header #textField {
+	margin: 0 0 0 1rem;
+}
+
+#header #magnifyingGlass {
+	margin: 0 0 0 0.25rem;
+}
+
+.additionalSearchCriteriaContainer {
+	position: relative;
+}
+
+#header .additionalSearchCriteriaContainer {
+	width: 100%;
+}
+
+#locationContainer {
+	display: inline-block;
+	width: 100%;
+}
+
+#locationBox .additionalSearchCriteriaText {
+	margin-left: 1rem;
+}
+
+#locationBox {
+	width: 60%;
+	background-color: #fff;
+	padding: 0.5rem 0;
+	margin: 1rem 1rem 0.5rem 1rem;
+	border: 1px solid #ddd;
+}
+
+.additionalSearchCriteriaContainer:hover .hoverMenu {
+	display: block;
+}
+
+.hoverMenu {
+	width: 25rem;
+	position: absolute;
+	left: -0.05rem;
+	top: 2.7rem;
+	background-color: #fff;
+	display: none;
+	padding: 0.5rem 0;
+	border: solid 1px #ddd;
+}
+
+.categoryBox {
+	padding: 1rem;
+}
+
+.categoryBox:hover {
+	background-color: #eee;
+	padding: 1rem;
+}
+
+#searchResults {
+	margin-top: 3rem;
+}
+
+#textFieldContainer {
+	line-height: 0;
+}
+
+.freeStanding {	
+	-moz-box-shadow:    0 0 .6rem 0 #ccc;
+	-webkit-box-shadow: 0 0 .6rem 0 #ccc;
+	box-shadow:         0 0 .6rem 0 #ccc;
+	background-color: #ccc;
+}
+
+.underHeader {
+	-moz-box-shadow:    0 0 0 0 #eee;
+	-webkit-box-shadow: 0 0 0 0 #eee;
+	box-shadow:         0 0 0 0 #eee;
+	border-bottom: solid 1px #eee;
+	background-color: none;
+}
+
+#textField {
+	margin: 1rem 0.3rem 1rem 1rem;
+	height: 3rem;
+	vertical-align: top;
+	width: 70%;
+}
+
+#searchFor {
+	margin: 0 0 2.5rem 1rem;
+	display: inline-block;
+}
+
+#searchFor + #textField {
+	margin-left: 0.2rem;
+	width: 50%;
+}
+
+#magnifyingGlass {
+	margin: 1rem 0;
+	padding: 0.7rem 4%;
+	background-color: #0E3F82;
+	width: 2rem;
+	border: solid 1px #eee;
+}
+
+#searchArea img:hover {
+	opacity: 0.8;
+}
+
+.additionalSearchCriteriaContainer {
+	padding: 0.5rem 1rem;
+	display: inline-block;
+}
+
+.additionalSearchCriteriaArrow {
+	margin: 0;
+	opacity: 0.5;
+}
+
+.result {
+	padding: 2rem 0 1rem 0;
+}
+
+.other {
+	background-color: #f7f7f7;
+}
+
+
+
+
+/* ---- text ---- */
+
+#searchFor span, .categoryText, .additionalSearchCriteriaText, .providerName, .providerLocation, .providerType, .providerSpecialties {
+	font-size: 1.4rem;
+}
+
+.providerLocation, .providerSpecialties, #locationText, #textField {
+	font-size: 1.2rem;
+}
+
+#searchFor span, .categoryText, .additionalSearchCriteriaText, #locationText {
+	color: #888;
+}
+
+.providerName, .providerLocation, .providerType, .providerSpecialties {
+	display: block;
+	margin-bottom: 0.2rem;	
+}
+
+.providerName {
+	font-weight: normal;
+}
+
+
+/* ---- links ---- */
+.providerInfo a:not(.providerName){
+	color: #000;
+}

@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {	
+    font-size: 2.4rem;
+}
+.wrapper {
+	width: 90rem;
+}
+#header{
+	height: 5rem;
+	display: block;
+}
+#logo {
+	width: 13.2rem;
+	margin-top: 0.7rem;
+}
+#headerText {
+	padding: 1.6rem 0 0 0;
+}
+
+
+.left {
+	width: 13rem;
+	margin-right: 2rem;
+}
+
+.additionalInfo {
+	margin: 0;
+}
+
+.supplementalHeaderText {
+	display: inline;
+	font-size: 2.1rem;
+}
+.supplementalHeaderText > a {
+	padding-left: 1rem;
+}
+
+#intro {
+	margin-bottom: 3rem;
+}
+
+#mainText {
+	margin: 3rem 10% 3rem 10%;
+	width: 80%;
+	font-size: 4.0rem;
+}
+
+.providerCategory {
+	font-size: 2.4rem;
+	padding: 0.5rem 2rem;
+}
+
+#magnifyingGlass{
+	padding: 0.75rem 2rem;
+}
+.additionalSearchCriteriaContainer {
+	margin-right: 5%;
+	padding-top: 0.5rem;
+}
+
+.additionalSearchCriteriaText {
+	font-size: 1.8rem;
+}
+
+.providerImageContainer {
+	width: 13rem;
+	margin: 0;
+}
+.providerInfo{
+	margin: 0;
+}
+.providerRating {
+	line-height: 1.4rem;
+	margin: 0;
+}
+
+/* ---- text ---- */
+
+#headerText, #headerText a {
+	font-size: 2.1rem;
+	line-height: 2.4rem;
+}
+#intro h1 {
+	line-height: 5rem;
+}
+
+h1 a, .center h1 {
+	font-size: 2.4rem;
+	line-height: 2.4rem;
+}
+h2 a, h3 a, span a {
+	font-size: 2.1rem;
+	line-height: 2.4rem;
+}

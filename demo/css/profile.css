@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#supplementalInfo {
+	padding: 2rem 0 0 0;
+	overflow: visible;
+}
+
+#additionalDetails {
+	margin-right: 1rem;
+	display: inline-block;
+	max-width: 20%;
+	vertical-align: top;
+	float: right;
+}
+
+
+
+#map {
+	margin: 1rem 3%;
+	padding: 0.5rem 2%;
+	display: inline-block;
+	border: 1px #333 dashed;
+	width: 90%;
+	height: 100px;
+	text-align: center;
+}
+iframe {
+	width: 100%;
+	height: 100px;
+}
+
+
+#contactProviderButton{
+	background-color: #15005a;
+	margin: 0 3%;
+	width: 94%;
+	border: 1px #eee solid;
+	border-radius: 3px;
+	-moz-box-shadow:    0 0 .8rem 0 #ddd;
+	-webkit-box-shadow: 0 0 .8rem 0 #ddd;
+	box-shadow:         0 0 .8rem 0 #ddd;
+	color: #fff;
+}
+
+#contactProviderButton:hover {
+	background-color: #2d81da;
+}
+
+#certifications {
+	margin: 0 1rem 3rem 1rem;
+	display: inline-block;
+}
+
+.certification {
+	display: inline-block;
+	margin: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.certIcon {
+	background-color: #ccc;
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+#socialMedia a {	
+	float: right;
+}
+
+#socialMedia a {
+	margin: 1rem 0 1rem 3%;
+	opacity: 0.5;
+}
+
+
+#socialMedia a:hover {
+	opacity: 0.3;
+}
+
+#socialMedia img {
+	width: 2rem;
+}
+
+#certSectionTitle {
+	margin-bottom: 0.5rem;
+}
+
+
+.title {
+	margin-bottom: 1rem;
+	display: block;
+	font-variant: small-caps;
+	color: #bbb;
+	letter-spacing: 0.5rem;
+}
+
+#education {
+	margin: 0 1rem;
+}
+
+#aboutText {
+	margin: 0 1rem 3rem 1rem;
+}
+
+#reviews {
+	margin: 1rem;
+}
+
+#reviews em {
+	font-style: italic;
+}
+
+.title p {	
+	margin-bottom: 1rem;
+}
+
+.viewMore, .viewMore:visited {
+	color: #999;
+}
+
+
+
+.reviewAuthor {
+	padding: 1rem 0 5rem 0;
+}
+
+/* ---- text ---- */
+
+#contactProviderButton span {
+	display: block;
+	text-align: center;
+	margin: 1rem;
+	letter-spacing: 1rem;
+}
+
+.certName a {
+	color: #777;
+}
+
+#certSectionTitle, .certName a {
+	font-size: 1.6rem;
+}
+
+.title,  #contactProviderButton span {
+	font-size: 2.1rem;
+}
